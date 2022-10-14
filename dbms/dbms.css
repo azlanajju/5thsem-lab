@@ -123,8 +123,10 @@ body {
   
   
 }
- .switch .switch1:hover {
-  color: red;
+ .switch a .switch1:hover {
+  color: white;
+  opacity:100%;
+  text-decoration: none;
 }
 
 .prog1{
@@ -241,7 +243,7 @@ i{
   text-align: center;
   padding:50px 0;
   
-  background-color: #444;
+  background-color: #887ED8;
   
   color:white;
 }
