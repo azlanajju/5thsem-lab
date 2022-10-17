@@ -72,12 +72,14 @@
 </div>
 <br>
 <div class="heading">
-    1a. question
+    1. question
   </div>
 <div class="prog1">
   
   <textarea name="" id="myInput00" cols="90" rows="10">
-  CREATE TABLE PUBLISHER( NAME VARCHAR(18) PRIMARY KEY, ADDRESS VARCHAR(10), PHONE VARCHAR(10));
+    
+    
+     CREATE TABLE PUBLISHER( NAME VARCHAR(18) PRIMARY KEY, ADDRESS VARCHAR(10), PHONE VARCHAR(10));
 
 CREATE TABLE BOOK(BOOK_ID INTEGER PRIMARY KEY, TITLE VARCHAR(20), PUBLISHER_NAME VARCHAR(20) REFERENCES PUBLISHER(NAME), PUB_YEAR NUMERIC);
 
@@ -122,6 +124,7 @@ INSERT INTO BOOK_LENDING VALUES(444,33,1, '2017-06-10', '2017-08-15');
 INSERT INTO BOOK_LENDING VALUES(111,11,1, '2017-05-12', '2017-08-15');
 INSERT INTO BOOK_LENDING VALUES(333,22,1, '2017-07-10', '2017-07-15');
 
+    
   </textarea>
   
   
@@ -423,7 +426,7 @@ question
 </div>
 <hr>
 
-
+<script src="dbms.js"> </script>
 </body>
     
 
@@ -478,7 +481,7 @@ question
 
 
 
-<script src="daa.js"></script>
+
 
 
    
