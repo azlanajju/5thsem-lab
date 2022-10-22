@@ -129,7 +129,21 @@ $ns at 1.0 "finish"
 
 $ns run
 
-
+/* awk code */
+    
+    BEGIN {
+c=0;
+}
+{
+If ($1=="d")
+{
+c++;
+printf("%s\t%s\n",$5,$110);
+}
+}
+END{
+printf("The number of packets dropped =%\n",c);
+}
   
   </textarea>
   
